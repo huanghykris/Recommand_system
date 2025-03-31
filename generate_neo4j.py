@@ -3,7 +3,7 @@ import pandas as pd
 
 # 连接Neo4j数据库
 uri = "bolt://localhost:7687"
-driver = GraphDatabase.driver(uri, auth=("neo4j", "@Xh19990820"))
+driver = GraphDatabase.driver(uri, auth=("neo4j", "12345678"))
 
 # 相关设置和参数
 k = 10
